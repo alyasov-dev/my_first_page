@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Сделаю Ваш сайт</title>
+        <meta charset="utf-8">   
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:url" content="https://unsung-developer.ru/">
+        <meta property="og:title" content="Веб-разработчик">
+        <meta property="og:description" content="Разработка вашего сайта за короткие сроки!">
+        <meta property="og:image" content="https://sun9-47.userapi.com/c206624/v206624865/11cd54/qO6V6dFJha4.jpg"> 
+        <link rel="preload" href="fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="preload" href="fonts/roboto/roboto-v20-latin_cyrillic-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles/head-styles.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/footer.css">
+        <link rel="stylesheet" href="styles/flying__tegs.css">
+        <link rel="stylesheet" href="styles/media.css">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="stylesheet" href="scripts/slider/owl-carousel/css/owl.carousel.css">
+        <script src="scripts/jquery.js"></script>
+        <script src="scripts/jquery.validate.min.js"></script>
+        <script src="scripts/jquery.inputmask.min.js"></script>
+        <script src="scripts/slider/owl-carousel/js/owl.carousel.js"></script>
+        <script src="scripts/modernizr-custom.js"></script>
+        <script src="scripts/slider__script.js"></script>
+    </head>
+    <body>
+        <div class="popup--container">
+            <div class="popup">
+                <button class="popup--container__button" type="button">&times;</button>
+                <h4 class="popup--container__title">Введите данные</h4>
+              <form class="popup--container__form" action="mail.php" method="POST">
+                    <input type="hidden" name="project_name" value="Имя">
+                    <input type="hidden" name="admin_email" value="alyasovyan@gmail.com">
+                    <input type="hidden" name="project_tel" value="Телефон">
+                    <label class="popup--container__desc">Ваше Имя
+                        <input class="popup--container__box" type="text" name="name" placeholder="Ян" required>
+                    </label>
+                    <label class="popup--container__desc">Ваша электронная почта
+                        <input class="popup--container__box popup--container__email" type="text" placeholder="alyasovyan@gmail.com" name="email" required>
+                    </label>
+                    <label class="popup--container__desc">Ваша номер телефона
+                        <input class="popup--container__box popup--container__tel" type="text" name="tel" placeholder="+7 999 999 99 99" required>
+                    </label>
+                    <label class="popup--container__success">
+                        <input type="checkbox" required>
+                        <span><a href="https://www.copyright.ru/documents/zashita_avtorskih_prav/zashchita_kontenta_sayta/tipovoe_polzovatelskoe_soglashenie_site/" target="_blank">Пользовательское соглашение</a></span>
+                    </label>
+                    <button class="popup--container__select" name="submit" type="submit" value="Отправить">Отправить</button> 
+                </form>
+            </div>
+        </div>
+        <header class="header--about">
+            <div class="fixed-container flex-container">
+                <nav class="header--about__navigation">
+                    <ul class="header--about__list">
+                        <li class="header--about__item">
+                            <a href="#one" class="header--about__pagination active__link">Услуги</a>
+                        </li>
+                        <li class="header--about__item">
+                            <a href="#two" class="header--about__pagination active__link">Портфолио</a>
+                        </li>
+                        <li class="header--about__item">
+                            <a href="#three" class="header--about__pagination active__link">Стоимость</a>
+                        </li>
+                    </ul>
+                    <button class="header--about__hidden-button" type="button" aria-label="Скрытая кнопка навигации"></button>
+                </nav>
+                <div class="header--about__order">
+                    <a href="tel:+79166441045" class="header--about__contacts social-active">+7 916 644 10 45</a>
+                    <button class="header--about__button common__button" type="submit">Заказать звонок</button>
+                </div>
+            </div>
+        </header>
+        <main class="main--conteiner">
+            <div class="main--container__top">
+                <span class="first-element style__element user__select">{ }</span>
+                <span class="second-element style__element user__select">#</span>
+                <span class="third-element style__element user__select">&lt;/&gt;</span>
+                <span class="fourth-element style__element user__select">&lt;div&gt;</span>
+                <span class="fifth-element style__element user__select">&lt;div&gt;</span>
+                <div class="my__svg">
+                    <svg class="svg"></svg>
+                </div>
+                <div class="my__pic">
+                    <img src="img/svg/me.png" alt="Мое фото">
+                </div>
+                <div class="fixed-container special-flex">
+                    <section class="main--container__author">
+                        <h1 class="main--container__title">Алясов Ян</h1>
+                        <p class="main--container__subtitle bottom__indent">Начинающий веб-разработчик</p>
+                        <button class="main--container__button common__button" type="submit">Узнать больше</button>
+                    </section>  
+                </div>
+
+            </div>     
+            <div class="white-container">
+                <div class="fixed-container">
+                    <section class="modal--container" id="one">
+                        <h2 class="common__tittle bottom__indent2">Что я делаю</h2>
+                        <ul class="modal--container__list bottom__indent2">
+                            <li class="modal--container__item1">
+                                <h3 class="common__subtitle">Вёрстка лендинг–страниц и сайтов любой сложности</h3>
+                            </li>
+                            <li class="modal--container__item2">
+                                <h3 class="common__subtitle">Адаптивная вёрстка под все браузеры и устройства</h3>
+                            </li>
+                            <li class="modal--container__item3">
+                                <h3 class="common__subtitle">Frontend–разработка и программирование</h3>
+                            </li>
+                            <li class="modal--container__item4">
+                                <h3 class="common__subtitle">Исправление и доработка существующей вёрстки</h3>
+                            </li>
+                        </ul>
+                        <div class="center__btn">
+                            <button class="modal--container__button common__button">Узнать стоимость</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="fixed-container">
+                <section class="example--container" id="two">
+                    <h2 class="common__tittle bottom__indent2">Примеры моих работ</h2>
+                    <button class="left--arrow__button example--container__arrow" type="button"></button>
+                    <ul class="example--container__list bottom__indent2 owl-carousel owl-theme">
+                        <li class="example--container__item first__icon">
+                            <a href="#" class="example--container__link">
+                                <picture>
+                                    <source media="(min-width: 1300px)" type="image/webp" srcset="img/example-icons/desktop/desktop__1.webp">
+                                    <source media="(min-width: 400px)" type="image/webp" srcset="img/example-icons/laptop/laptop__1.webp">
+                                    <source type="image/webp" srcset="img/example-icons/mobile/mobile__1.webp">
+                                    <source srcset="img/example-icons/desktop/desktop__1.jpg" media="(min-width: 1300px)">
+                                    <source srcset="img/example-icons/laptop/laptop__1.jpg" media="(min-width: 400px)">
+                                    <img src="img/example-icons/mobile/mobile__1.jpg" alt="Фон сайта психолога Веры Антоновой">
+                                </picture>
+                                <h3 class="common__subtitle">Сайт психолога Веры Антоновой</h3>
+                            </a>
+                        </li>
+                        <li class="example--container__item second__icon">
+                            <a href="#" class="example--container__link">
+                                <picture>
+                                    <source media="(min-width: 1300px)" type="image/webp" srcset="img/example-icons/desktop/desktop__2.webp">
+                                    <source media="(min-width: 400px)" type="image/webp" srcset="img/example-icons/laptop/laptop__2.webp">
+                                    <source type="image/webp" srcset="img/example-icons/mobile/mobile__2.webp">
+                                    <source media="(min-width: 1300px)" srcset="img/example-icons/desktop/desktop__2.jpg">
+                                    <source media="(min-width: 400px)" srcset="img/example-icons/laptop/laptop__2.jpg">
+                                    <img src="img/example-icons/mobile/mobile__2.jpg" alt="Фон сайта магазина детской одежды">
+                                </picture>
+                                <h3 class="common__subtitle">Сайт магазина детской одежды</h3>
+                            </a>
+                        </li>
+                        <li class="example--container__item third__icon">
+                            <a href="#" class="example--container__link must-position">
+                                <picture>
+                                    <source media="(min-width: 1300px)" type="image/webp" srcset="img/example-icons/desktop/desktop__3.webp">
+                                    <source media="(min-width: 400px)" type="image/webp" srcset="img/example-icons/laptop/laptop__3.webp">
+                                    <source type="image/webp" srcset="img/example-icons/mobile/mobile__3.webp">
+                                    <source media="(min-width: 1300px)" srcset="img/example-icons/desktop/desktop__3.jpg">
+                                    <source media="(min-width: 400px)" srcset="img/example-icons/laptop/laptop__3.jpg">
+                                    <img src="img/example-icons/mobile/mobile__3.jpg" alt="Фон магазина 'Рыболов'">
+                                </picture>    
+                                <h3 class="common__subtitle">Cайт магазина "Рыболов"</h3>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="right--arrow__button example--container__arrow" type="button"></button>
+        
+                    <div class="center__btn">
+                        <button class="example--container__button common__button">Заказать проект</button>
+                    </div>    
+                </section>
+            </div>
+            <div class="liner-gradient--container">
+                <span class="sixth-element element-style user__select">{ }</span>
+                <span class="seventh-element element-style user__select">#</span>
+                <span class="eighth-element element-style user__select">&lt;div&gt;</span>
+                <span class="ninth-element element-style user__select">&lt;/&gt;</span>
+                <span class="tenth-element element-style user__select">{ }</span>
+                <div class="fixed-container">
+                    <section class="period--container" id="three">
+                        <h3 class="period--container__title bottom__indent">Адаптивная вёрстка под все устройства и&nbsp;браузеры от&nbsp;1000 рублей всего за&nbsp;4&nbsp;часа.*</h3>
+                        <p class="period--container__subtitle">*Срок и стоимость могут отличаться от заявленных и рассчитываются индивидуально,
+                            в&nbsp;зависимости от сложности задач.</p>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer class="footer--container">
+            <div class="fixed-container flex-container">
+                <nav class="footer--container__nav">
+                    <ul class="footer--container__list">
+                        <li class="footer--container__item">
+                            <a href="#one" class="footer--container__link active__link">Услуги</a>
+                        </li>
+                        <li class="footer--container__item">
+                            <a href="#two" class="footer--container__link active__link">Портфолио</a>
+                        </li>
+                        <li class="footer--container__item">
+                            <a href="#three" class="footer--container__link active__link">Стоимость</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer--container__list footer--container__order">
+                    <a href="tel:+79166441045" class="footer--container__mobile social--active">+7 916 644 10 45</a>
+                    <a href="mailto:alyasovyan@gmail.com" class="footer--container__email social--active">alyasovyan@gmail.com</a>
+                </div>
+                <div class="footer--container__list adapt--container">
+                    <button class="footer--container__button common__button">Заказать звонок</button>
+                    <div class="footer--container__social">
+                        <ul class="footer--container__list2">
+                            <li class="footer--container__item2">
+                                <a href="http://vk.com/share.php?url=https://unsung-developer.ru/&image=https://sun9-47.userapi.com/c206624/v206624865/11cd54/qO6V6dFJha4.jpg&noparse=true" target="_blank" class="footer--container__share first__social" aria-label="Vkontakte"></a>
+                            </li>
+                            <li class="footer--container__item2">
+                                <a href="https://www.facebook.com/sharer/sharer.php?u=unsung-developer.ru" target="_blank" class="footer--container__share second__social" aria-label="facebook"></a>
+                            </li>
+                            <li class="footer--container__item2">
+                                <a href="https://twitter.com/share?url=unsung-developer.ru" target="_blank" class="footer--container__share third__social" aria-label="twitter"></a>
+                            </li>
+                            <li class="footer--container__item2">
+                                <a href="https://www.instagram.com/alyasovyan/" target="_blank" class="footer--container__share fourth__social" aria-label="instagram"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="fixed-container">
+                    <p class="copyright-text">© Алясов Ян, 2020</p>
+                </div>
+            </div>    
+        </footer>
+        
+    </body>
+</html>
+

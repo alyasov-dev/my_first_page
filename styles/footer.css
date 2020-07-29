@@ -1,0 +1,151 @@
+.footer--container {
+    background-color: rgb(255,255,255);
+    padding-top: 85px;
+}
+
+.footer--container__list{
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+}
+
+.footer--container__item {
+    margin-bottom: 20px;
+}
+
+.footer--container__item:last-child {
+    margin-bottom: 0;
+}
+
+.footer--container__link {
+    color: rgb(137, 147, 173);
+    font-size: 18px;
+}
+
+.footer--container__order {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+.footer--container__mobile {
+    background-image: url(../img/social-icons/1.png);
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: left center;
+    padding-left: 37px;
+    margin-bottom: 45px;
+}
+
+.footer--container__email {
+    background-image: url(../img/social-icons/2.png);
+    background-repeat: no-repeat;
+    background-size: 25px 15px;
+    background-position: left center;
+    padding-left: 37px;
+}
+
+.footer--container__button {
+    width: 250px;
+    height: 45px;
+    margin-top: -8px;
+    margin-bottom: 35px;
+}
+
+.footer--container__list2 {
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    width: 200px;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    -ms-justify-content: space-between;
+    -o-justify-content: space-between;
+}
+
+.footer--container__share {
+    display: block;
+    width: 35px;
+    height: 30px;
+}
+
+.first__social {  
+    background-image: url(../img/social-icons/sprait.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 0%;
+}
+
+.second__social {
+    background-image: url(../img/social-icons/sprait.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 35%;
+}
+
+.third__social {
+    background-image: url(../img/social-icons/sprait.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 65%;
+}
+
+.fourth__social {
+    background-image: url(../img/social-icons/sprait.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 100%;
+}
+
+.copyright {
+    background-color: rgb(49, 41, 60);
+    margin-top: 90px;
+    padding: 30px 0 30px;
+    color: rgb(255,255,255);
+}
+
+.copyright-text {
+    text-align: center;
+}
+
+.first__social:hover {  
+    background-image: url(../img/social-icons/sprait2.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 0%;
+}
+
+.second__social:hover {
+    background-image: url(../img/social-icons/sprait2.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 35%;
+}
+
+.third__social:hover {
+    background-image: url(../img/social-icons/sprait2.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 65%;
+}
+
+.fourth__social:hover {
+    background-image: url(../img/social-icons/sprait2.png);
+    background-repeat: no-repeat;
+    background-size: 145px 33px;
+    background-position: 100%;
+}

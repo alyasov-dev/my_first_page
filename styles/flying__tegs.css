@@ -1,0 +1,163 @@
+.user__select {
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.style__element {
+    background: -webkit-linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+    background: -moz-linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+    background: -o-linear-gradient(13deg, #ff8f5a 0%, #ff2f96 99%, #ff2f96 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: bold;
+}
+
+.first-element {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 48px;
+    transition: 1100ms ease-in-out;
+    -webkit-transition: 1100ms ease-in-out;
+    -o-transition: 1100ms ease-in-out;
+    -moz-transition: 1100ms ease-in-out;
+}
+
+.second-element {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    font-size: 55px;
+    transition: 1100ms ease-in-out;
+    -webkit-transition: 1100ms ease-in-out;
+    -o-transition: 1100ms ease-in-out;
+    -moz-transition: 1100ms ease-in-out;
+}
+
+.third-element {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    font-size: 40px;
+    transition: 1100ms ease-in-out;
+    -webkit-transition: 1100ms ease-in-out;
+    -o-transition: 1100ms ease-in-out;
+    -moz-transition: 1100ms ease-in-out;
+}
+
+.fourth-element {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 30px;
+    transition: 1100ms ease-in-out;
+    -webkit-transition: 1100ms ease-in-out;
+    -o-transition: 1100ms ease-in-out;
+    -moz-transition: 1100ms ease-in-out;
+}
+
+.fifth-element {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    font-size: 37px;
+    transition: 1100ms ease-in-out;
+    -webkit-transition: 1100ms ease-in-out;
+    -o-transition: 1100ms ease-in-out;
+    -moz-transition: 1100ms ease-in-out;
+}
+
+.first-element__animated {
+    transform: translate(120px, 100px) rotate(25deg);
+    -webkit-transform: translate(120px, 100px) rotate(25deg);
+    -ms-transform: translate(120px, 100px) rotate(25deg);
+    -moz-transform: translate(120px, 100px) rotate(25deg);
+}
+
+.second-element__animated {
+    transform: translate(240px, 220px) rotate(18deg);
+    -webkit-transform: translate(240px, 220px) rotate(18deg);
+    -ms-transform: translate(240px, 220px) rotate(18deg);
+    -moz-transform: translate(240px, 220px) rotate(18deg);
+}
+
+.third-element__animated {
+    transform: translate(320px, 350px) rotate(-20deg);
+    -webkit-transform: translate(320px, 350px) rotate(-20deg);
+    -ms-transform: translate(320px, 350px) rotate(-20deg);
+    -moz-transform: translate(320px, 350px) rotate(-20deg);
+}
+
+.fourth-element__animated {
+    transform: translate(-1000px, 100px) rotate(-35deg);
+    -webkit-transform: translate(-1000px, 100px) rotate(-35deg);
+    -ms-transform: translate(-1000px, 100px) rotate(-35deg);
+    -moz-transform: translate(-1000px, 100px) rotate(-35deg);
+}
+
+.fifth-element__animated {
+    transform: translate(-950px,-40px) rotate(29deg);
+    -webkit-transform: translate(-950px,-40px) rotate(29deg);
+    -ms-transform: translate(-950px,-40px) rotate(29deg);
+    -moz-transform: translate(-950px,-40px) rotate(29deg);
+}
+
+.element-style {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 37px;
+}
+
+.sixth-element {
+    position: absolute;
+    left: 120px;
+    top: 20px;
+    font-size: 44px;
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+}
+
+.seventh-element {
+    position: absolute;
+    left: 240px;
+    top: 350px;
+    font-size: 44px;
+    transform: rotate(22deg);
+    -webkit-transform: rotate(22deg);
+    -moz-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+}
+
+.eighth-element {
+    position: absolute;
+    bottom: 15px;
+    right: 400px;
+    transform: rotate(25deg);
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    -ms-transform: rotate(25deg);
+}
+
+.ninth-element {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    transform: rotate(-28deg);
+    -webkit-transform: rotate(-28deg);
+    -moz-transform: rotate(-28deg);
+    -ms-transform: rotate(-28deg);
+}
+
+.tenth-element {
+    position: absolute;
+    bottom: 50px;
+    right: 100px;
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+}
