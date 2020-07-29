@@ -1,2 +1,2 @@
 # my_first_page
-My first landing.
+Hi. It's my first project for Skillbox.
